@@ -1,0 +1,14 @@
+#set("title") {Добро пожаловать!}
+
+#set("body") {
+    <h1>Первоначальные настройки</h1>
+    <p></p>
+<p><a href="http://localhost:8080/firstsetup">Первоначальная настройка категорий</a></p>
+<p><a href="http://localhost:8080/secondsetup">Первоначальная настройка слов для категорий</a></p>
+    <p></p>
+    <h1>JSON API</h1>
+<p>GET REQUEST - http://localhost:8080/categories</p>
+<p>POST REQUEST - http://localhost:8080/words</p>
+}
+
+#embed("master")
